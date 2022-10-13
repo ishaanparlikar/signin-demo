@@ -1,0 +1,47 @@
+@font-face {
+  font-family: circularStd;
+  src: url("../../public/CircularStd-Book.ttf");
+}
+
+* {
+  font-family: circularStd !important;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: circularStd;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.textField legend span {
+  color: #a3a3a3;
+  font-size: 16px;
+}
+.textField input {
+  padding: 12px 14px;
+  border-radius: 4px;
+}
+.textField fieldset {
+  border-color: #e7e7e7;
+  border-radius: 0;
+}
+.Button {
+  background-color: #f4f4f5;
+  padding: 8px 14px;
+}
+
+.con_btn {
+  height: 44px;
+}
+.mainContainer {
+  padding: 0 !important;
+  max-width: 500px;
+}
